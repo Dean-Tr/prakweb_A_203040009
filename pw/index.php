@@ -26,7 +26,7 @@ $buku = query("SELECT * FROM buku");
 </head>
 
 <body>
-    <h3 class="text-center p-3 pb-0">Daftar Buku</h3>
+    <h3 class="text-center p-3 pb-0">Daftar Buku Terbaik</h3>
     <div class="container">
         <!-- tombol tambah data -->
         <div class="d-flex justify-content-center mt-3">
