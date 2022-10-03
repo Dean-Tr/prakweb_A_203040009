@@ -13,7 +13,7 @@ if (isset($_POST['ubah'])) {
     } else {
         echo "<script>
             alert('Data gagal diubah!');
-            document.location.href = '../index.phpp';
+            document.location.href = '../index.php';
             </script>";
     }
 }
