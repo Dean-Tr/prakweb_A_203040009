@@ -26,8 +26,8 @@ $buku = query("SELECT * FROM buku");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<body class="">
-    <h3 class="text-center p-3 pb-0">Daftar Buku Terbaik</h3>
+<body class="warnaBody">
+    <h3 class="text-center p-3 pb-0 WarnaPutih">Daftar Buku Terbaik</h3>
     <div class="container">
         <!-- tombol tambah data -->
         <div class="d-flex justify-content-center mt-3">
