@@ -26,7 +26,7 @@ $buku = query("SELECT * FROM buku");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<body class="warnaAbu">
+<body class="">
     <h3 class="text-center p-3 pb-0">Daftar Buku Terbaik</h3>
     <div class="container">
         <!-- tombol tambah data -->
@@ -38,7 +38,7 @@ $buku = query("SELECT * FROM buku");
 
         <div class="d-flex my-2 bd-highlight flex-wrap justify-content-center">
             <?php foreach ($buku as $b) : ?>
-                <div class="border border-4 border-black text-center rounded bd-highlight m-3 col-auto mr-auto">
+                <div class="warnakonten border border-4 border-black text-center rounded bd-highlight m-3 col-auto mr-auto">
 
                     <!-- gambar -->
                     <div class="p-3">
@@ -46,7 +46,7 @@ $buku = query("SELECT * FROM buku");
                     </div>
 
                     <!-- nama gambar -->
-                    <div class="text-center pb-3 text-decoration-none" style="width: 230; margin: auto;">
+                    <div class="text-center pb-3 text-decoration-none text-white" style="width: 230; margin: auto;">
                         <p style="margin: auto;"><?= $b["nama"]; ?></p>
                     </div>
 
